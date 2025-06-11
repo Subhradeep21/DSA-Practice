@@ -35,7 +35,7 @@ def max_subarray_sum(nums: list[int], k: int) -> int:
     return max_sum
     pass
 
-# Same approach better/cleaner code. Calculating the initial window sum at the beginning
+# Same approach but better/cleaner code. Calculating the initial window sum at the beginning
 def max_subarray_sum2(nums:list[int], k:int) -> int:
     sub_sum = sum(nums[:k])
     max_sum = sub_sum
